@@ -1,5 +1,7 @@
 #!/usr/bin/perl -w
 
+use FindBin 1.51 qw( $RealBin );
+use lib $RealBin;
 use strict;
 use IO::Socket;
 use scigen;

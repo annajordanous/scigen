@@ -22,7 +22,8 @@
 #    along with SCIgen; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-
+use FindBin 1.51 qw( $RealBin );
+use lib $RealBin;
 use IO::File;
 use strict;
 use scigen;
